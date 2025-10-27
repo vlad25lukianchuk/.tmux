@@ -7,6 +7,10 @@
 #         Copyright 2012— Gregory Pakosz (@gpakosz).
 
 
+# my current local settings
+set -g base-index 0           # start windows numbering at 0
+setw -g pane-base-index 0     # make pane numbering consistent with windows
+
 # -- bindings ------------------------------------------------------------------
 
 # preserve tmux stock bindings,
